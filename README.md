@@ -1,17 +1,10 @@
 # bizzhare
 
-A new Flutter project.
+a) Tech stack
+riverpod,dio, ChaceNetworkImage, freezed annotation, build_runner, riverpod annotation
 
-## Getting Started
+b) Explain stack
+Saya menggunakan riverpod sebagai state management karena simple dan mudah dipakai ditambah menggunakan annotationnya jadi lebih cepat dan sedikit lebih mudah. saya pake dio karena nanti kedepannnya bisa pake interceptor jadi lebih enak try catch errornya. saya pake chacenetwork image supaya dia lazy load untuk load image jadi gak membebani server dan ga bikin berat di frontendnya juga trus kenapa pake frezzed supaya lebih cepet bikin models apa lagi ini clean architecture yang pake entity jadi agak banyak bikin model. build runner supaya bisa generate si freezednya dan riverpod annotationnya.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+c) Setup
+Saya pake mac os flutter 3.41 kalo runnya flutter clean - flutter pub get - flutter run.
